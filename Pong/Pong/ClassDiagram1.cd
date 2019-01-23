@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pong.Collision.CollisionEventArgs">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Collision.CollisionManager">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAQAAAAAAAAABAAAAAAAAAAAAQAAEg=</HashCode>
+      <FileName>Collision\CollisionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Collision.CollisionObject">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Pong.Collision.CollisionObject.CollisionEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\CollisionObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgBBAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.GameManager">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIEAAAAAAAAwgAACQAAQQAAAAAAAgAAIAAAACBAAQ=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Ball">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAIBAAAAAAAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>Graphics\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Paddle">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Graphics\Paddle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Sprite">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABggAAgAgAAAAAEABAAAAAAAAAApEgAAAAAA=</HashCode>
+      <FileName>Graphics\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Pong.Program">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Helpers.Randomiser">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\Randomiser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Players.Computer">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players\Computer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Players.Human">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players\Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pong.Players.PlayerBase">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players\PlayerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pong.ISprite">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABggAAgAgAAAAAEAAAAAAAAAAAAoAAAAAAAA=</HashCode>
+      <FileName>Graphics\ISprite.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
